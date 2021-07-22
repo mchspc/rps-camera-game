@@ -1,0 +1,84 @@
+
+
+#imageid{
+    height: 250px !important; 
+    width: auto;
+}
+#computerchoice{
+    height: 250px; 
+    width: auto;
+    transform: scaleX(-1);
+}
+body{
+    background-color: #425668;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+
+@font-face{
+    font-family: 'Fredoka One';
+    src: url('/Fredoka_One/FredokaOne-Regular.ttf');
+
+}
+#results{
+    font-family: 'Fredija One', Fallback, sans-serif;
+    font-size: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.circle{
+    background: rgb(1, 230, 20);
+    border-radius: 100px;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 25px;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    align-self: flex-end;
+}
+.circle:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 20px 40px;
+    border-color: transparent transparent transparent green;
+    position: absolute;
+    top:0;
+    left:0;
+    right:-8px;
+    bottom:0;
+    margin: auto;
+    color: green;
+    fill: green;
+
+}
+.container{
+    display: flex;
+}
+.catthebox{
+    width: 250px;
+    height: 250px;
+    border-radius: 2px;
+    border-color: black;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 230, 230);
+
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}

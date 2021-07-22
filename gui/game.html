@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="rps.css">
+    
+
+  </head>
+  <body>
+    <!-- <h1>Welcome to the rock paper scissors game</h1> -->
+    
+
+    <!-- <button type="button" id = "myButtons">
+      Press to launch camera!
+    </button> -->
+    <div class="container" id = myButtons>
+        <div class="circle">
+        </div>
+    </div>
+
+    <!-- <a href="#" class="round-button"><i class="fa fa-play fa-2x"></i></a> -->
+    <div class="boxes">
+    <div class = "catthebox">
+      <img src="" id = "imageid">
+  </div>
+  <div class = "catthebox">
+    <img src="" id = "computerchoice" style="
+    transform: scaleX(-1);">
+    </div>
+  </div>
+    <!-- <h3 id = "user" ></h3>
+    <h3 id = "comp" ></h3> -->
+    <h3 id = "results"></h3>
+
+    <!-- <button id="myButton">Click me</button> -->
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <!-- <script src="linkers/bundle.js"></script> -->
+    <script src = "linkers/rps.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
