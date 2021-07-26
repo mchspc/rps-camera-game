@@ -38,25 +38,68 @@ body{
     text-align: center;
 }
 
-.start-btn{
-    font-family: 'Fredija One', Fallback, sans-serif;
-    font-size: 50px;
-    color: black;
+.myButton {
+	background-color:rgb(1, 230, 20);;
+	border-radius:15px;
+	border:1px solid rgb(4, 197, 20);
+	/* display:inline-block; */
+	cursor:pointer;
+	color:green;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+    text-decoration:none;
     margin: auto;
-    margin-top: 150px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    background: rgb(1, 230, 20);
+    /* margin-bottom: 25px; */
+    /* align-self: flex-end; */
+    position: absolute;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 25px;
+    /* top:0; */
+    bottom:0;
+    right:0;
+    left:0;
+    align-self: flex-end;
+    
 
+
+	/* text-shadow:0px 1px 0px #2f6627; */
 }
-
+a:-webkit-any-link{
+    text-decoration:none !important;
+    }
+.myButton:hover {
+	background-color:rgb(0, 235, 20);;
+}
+.myButton:active {
+	/* position:relative; */
+    /* top:0px; */
+}
+#buttonBox{
+    /* display: flex;
+    
+    justify-content: center; */
+    /* bottom: 0px; */
+    /* position: absolute; */
+    /* bottom: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    align-items: flex-end; */
+    
+}
+#imageCenter{
+    display: flex;
+    align-content: center;
+    margin-bottom: auto;
+}
 #image2id{
     margin-top: 25px;
-    display: block;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
     width: 35%;
+
 
 }
 
