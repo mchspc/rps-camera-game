@@ -16,7 +16,7 @@ body{
 }
 
 @font-face{
-    font-family: 'Fredoka One';
+    font-family: 'q';
     src: url('/Fredoka_One/FredokaOne-Regular.ttf');
 
 }
@@ -29,6 +29,37 @@ body{
     text-align: center;
 
 }
+#welcome{
+    font-family: 'Fredija One', Fallback, sans-serif;
+    font-size: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.start-btn{
+    font-family: 'Fredija One', Fallback, sans-serif;
+    font-size: 50px;
+    color: black;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: rgb(1, 230, 20);
+
+}
+
+#image2id{
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+
+}
+
 .circle{
     background: rgb(1, 230, 20);
     border-radius: 100px;
